@@ -26,13 +26,9 @@ Copy and paste this line into a terminal to install the required dependencies.
 Copy the set of commands in order to install the vte-ng project, which is required with Termite.
 
 `git clone https://github.com/thestinger/vte-ng.git
-
 cd vte-ng/
-
 ./autogen.sh --disable-introspection --disable-vala
-
 make
-
 sudo make install`
 
 #### Termite Installation

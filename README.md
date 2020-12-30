@@ -44,3 +44,11 @@ Copy the set of commands in order to install the Termite terminal emulator.
 `cd termite && make`
 
 `sudo make install`
+
+#### Special Variable
+
+This variable might be needed if Termite "doesn't act properly". To fix this, you'll need to add a variable to `.bashrc`.
+
+`echo "TERM=termite" >> $HOME/.bashrc`
+
+Once the installation is complete, you can begin with the configuration.
